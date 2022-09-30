@@ -1,13 +1,13 @@
 <?php
 
-namespace Kapersoft\Sharefile\Test;
+namespace Kapersoft\ShareFile\Test;
 
 use GuzzleHttp\Middleware;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
 use org\bovigo\vfs\vfsStream;
-use Kapersoft\Sharefile\Client;
+use Kapersoft\ShareFile\Client;
 use PHPUnit\Framework\TestCase;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\Exception\ClientException;
