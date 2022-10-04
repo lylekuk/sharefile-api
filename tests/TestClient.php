@@ -44,7 +44,7 @@ class TestClient extends TestCase
      *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->vfsRoot = vfsStream::setup('home');
     }

@@ -8,7 +8,7 @@ use PHPUnit\Framework\TestCase;
 use org\bovigo\vfs\vfsStreamFile;
 use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Exception\ConnectException;
-use Kapersoft\Sharefile\Exceptions\BadRequest;
+use Kapersoft\ShareFile\Exceptions\BadRequest;
 
 /**
  * Class TestClient.
@@ -39,7 +39,7 @@ class TestShareFileApi extends TestCase
      *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->vfsRoot = vfsStream::setup('home');
     }

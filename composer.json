@@ -19,13 +19,13 @@
         }
     ],
     "require": {
-        "php": "^7.0",
+        "php": "^8.0",
         "guzzlehttp/guzzle": "^6.2"
     },
     "require-dev": {
         "larapack/dd": "1.*",
-        "mikey179/vfsStream": "^1.6",
-        "phpunit/phpunit": "6.4.x-dev"
+        "mikey179/vfsstream": "^1.6",
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
