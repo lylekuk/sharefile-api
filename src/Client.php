@@ -436,7 +436,7 @@ class Client
                 'index'      => $index,
                 'byteOffset' => $index * $chunkSize,
                 'hash'       => md5($data),
-                'filehash'   => Psr7\hash(Psr7\stream_for($stream), 'md5'),
+                'filehash'   => Psr7\Utils::hash(Psr7\Utils::streamFor($stream), 'md5'),
                 'finish'    => true,
             ]
         );
